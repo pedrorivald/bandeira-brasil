@@ -74,6 +74,8 @@ body{
 	background-color: #fff;
 	width: 500px;
 	height: 40px;
+	
+	
 }
 .circle{
 	margin-top: 118px;
@@ -89,7 +91,8 @@ h1 {
 	letter-spacing: 3px;
 }
 
-.circulo .star{
+/*.circulo .star{
+
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -100,17 +103,75 @@ h1 {
 	z-index: 10000;
 	background-color: #fff;
 }
+*/
+.circulo .star{
+	position: absolute;
+	top: 50%;
+	left: 50%;
 
-.star.pa{
+}
+
+.circulo .star{
+
+	width: 0;
+	height:0;
+	
+	border-left: solid 8px transparent;
+	border-right: solid 8px transparent;
+	border-bottom: solid 5px white;
+	transform: rotatez(35deg);
+}
+
+
+.circulo .star:before{
+	position: absolute;
+	display:block;
+	width: 0;
+	height:0;
+	top: -3.6px;
+    left: -5px;
+	border-left: solid 2px transparent;
+	border-right: solid 2px transparent;
+	border-bottom: solid 5px white;
+	transform: rotatez(-35deg);
+	content:'';
+}
+
+
+.circulo .star:after{
+	position:absolute;
+	display:block;
+	width: 0;
+	height:0;
+	top: -0px;
+	left: -8px;
+
+	
+
+	border-left: solid 8px transparent;
+	border-right: solid 8px transparent;
+	border-bottom: solid 5px white;
+	transform: rotatez(-70deg);
+	content:'';
+
+	
+
+}
+
+
+
+
+.star.pa{ 
 	margin-left: 30px;
-	margin-top: -60px;
-	transform: scale(2,2);
+	margin-top: -70px;
+	transform: scale(1.5,1.5);
+
 }
 
 .star.am{
 	margin-left: -130px;
 	margin-top: 5px;
-	transform: scale(2,2);
+	transform: scale(1.5,1.5);
 }
 
 .star.ms{
@@ -127,43 +188,43 @@ h1 {
 .star.mt{
 	margin-left: -115px;
 	margin-top: 60px;
-	transform: scale(2,2);
+	transform: scale(1.5,1.5);
 }
 
 .star.rr{
 	margin-left: -90px;
 	margin-top: 80px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.ap{
 	margin-left: -115px;
 	margin-top: 95px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.to{
 	margin-left: -100px;
 	margin-top: 105px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.go{
 	margin-left: -80px;
 	margin-top: 115px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.ba{
 	margin-left: -10px;
 	margin-top: 33px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.mg{
 	margin-left: -30px;
 	margin-top: 53px;
-	transform: scale(1.5,1.5);
+	transform: scale(1.,1);
 }
 
 .star.es{
@@ -174,13 +235,13 @@ h1 {
 .star.sp{
 	margin-left: -10px;
 	margin-top: 78px;
-	transform: scale(2,2);
+	transform: scale(1.5,1.5);
 }
 
 .star.rj{
 	margin-left: 10px;
 	margin-top: 50px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.df{
@@ -197,61 +258,61 @@ h1 {
 .star.rs{
 	margin-left: 38px;
 	margin-top: 126px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.sc{
 	margin-left: 47px;
 	margin-top: 110px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.se{
 	margin-left: 55px;
 	margin-top: 130px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.al{
 	margin-left: 73px;
 	margin-top: 120px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.pe{
 	margin-left: 70px;
 	margin-top: 100px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.pb{
 	margin-left: 92px;
 	margin-top: 90px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.rn{
 	margin-left: 110px;
 	margin-top: 70px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.ce{
 	margin-left: 130px;
 	margin-top: 50px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.ma{
 	margin-left: 140px;
 	margin-top: 30px;
-	transform: scale(1.5,1.5);
+	transform: scale(1,1);
 }
 
 .star.pi{
 	margin-left: 125px;
 	margin-top: 15px;
-	transform: scale(2,2);
+	transform: scale(1.5,1.5);
 }
 
 .star.ac{
